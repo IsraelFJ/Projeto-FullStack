@@ -1,10 +1,9 @@
-html, body{
+html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-
 }
 
 body{
@@ -12,24 +11,23 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .logo{
-    width: 100%;
+    width: 100px;
     margin-bottom: 20px;
 }
 
 .container{
     background-color: white;
-    padding: 20px 40ox;
+    padding: 40px 20px;
     border-radius: 12px;
-    box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
     width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     box-sizing: border-box;
 }
 
@@ -39,7 +37,7 @@ h2{
     font-size: 20px;
     text-align: center;
     font-weight: bold;
-    color: #284ea7;
+    color: blue;
 }
 
 form{
@@ -47,7 +45,7 @@ form{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 15px;   
+    gap: 15px;
 }
 
 input, button{
@@ -56,7 +54,6 @@ input, button{
     border-radius: 6px;
     box-sizing: border-box;
     font-size: 14px;
-
 }
 
 input{
@@ -73,6 +70,7 @@ button{
     margin-top: 10px;
     transition: 0.3s;
 }
+
 button:hover{
     background-color: #218838;
 }
@@ -103,5 +101,5 @@ background-color: #dc3545;
 
 .mensagem.visivel{
     background-color: #dc3545;
-}
 
+}
